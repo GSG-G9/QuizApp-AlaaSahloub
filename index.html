@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/media.css">
+    <title>Quizzes</title>
+</head>
+<body>
+    <div class="maindiv">
+        <div class="logo-name-div">
+            <form class="form-player-name" id="Form-Player-Name">
+                <h1>Quizzes</h1>
+                <label for="Player-Name" class="lblname">Enter your name here!</label>
+                <input name="player-name" type="text" class="player-name" id="Player-Name" >
+                <button class="start-quiz" id="Start-Quiz">Start</button>
+                <div class="description ">
+                    <p class="lblname">How you can play?</p>
+                    <ul>
+                        <li>To play this game Please enter your name.</li>
+                        <li>You can see the high score.</li>
+                        <li>Click on start button to start now.</li>
+                        <li>You will be able to see my score after finishing all of the questions.</li>
+                    </ul>
+                </div>
+                <p class="player-score" id="Player-Score">40</p>
+            
+            </form>
+        </div>
+        <div class="question-main-box">
+            <form class="form-questions" id="Form-Questions">
+
+                <button class="next-question" id="Next-Question">Next</button>
+                <button class="finish-quiz" id="Finish-Quiz">Finish Quiz</button>
+            </form>
+        </div>
+        <div class="leader-board" id="leader-board">
+            <p" class="lblname">High Score</p>
+        </div>
+    </div>
+    <script src="JS/script.js"></script>
+</body>
+</html>
